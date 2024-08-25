@@ -107,7 +107,6 @@ submitCause.addEventListener("click", function(e) {
         setTimeout(function() {
             alert("Attendance of date "+today+" submitted!!");
             window.location.href = "../index.html";
-            window.location.reload();
         }, 5000);
     });
 });
